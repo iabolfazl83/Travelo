@@ -25,6 +25,9 @@ closeSearch.addEventListener("click", function () {
     darkTint.style.cssText = "height: 0;"
     dropdownMenuEl.style.top = "100px";
     document.querySelector("body").style.overflowY = "auto";
+    if (isOpen && dropdownMenuEl.style.height === "100%") {
+    document.querySelector("body").style.overflowY = "hidden";
+    }
 })
 
 openSearch.addEventListener("click", showSearchBar)
@@ -58,10 +61,11 @@ openMenuBtn.addEventListener("click", () => {
     if (openMenuBtn.classList.contains("active")) {
         dropdownMenuEl.style.height = "0";
         isOpen = !isOpen;
+        document.querySelector("body").style.overflowY = "auto";
     } else {
         dropdownMenuEl.style.height = "100%";
+        document.querySelector("body").style.overflowY = "hidden";
     }
-
 })
 
 openMenuBtn.addEventListener("click", () => openMenuBtn.classList.toggle("active"))
@@ -72,8 +76,20 @@ playVideo.addEventListener("click", function () {
     document.querySelector(".video").style.cssText = "padding: 0 0 5vw 0;"
 })
 
+document.addEventListener('DOMContentLoaded', function () {
+    var splide = new Splide('.splide', {
+        type: 'loop',
+        Interval: 3000,
+        autoplay: true,
+        pagination: false,
+        speed: 1000,
 
-// sidebar menu
+    });
+    splide.mount();
+});
+
+
+// sidebar menu code
 // if (isOpen && screen.width <= 325) {
 //     // max-width: 325px
 //     dropdownMenuEl.style.cssText = "width: 125px; right: 0;";
@@ -104,5 +120,5 @@ playVideo.addEventListener("click", function () {
 // } else if (!isOpen) {
 //     dropdownMenuEl.style.cssText = "right: -100%;";
 //     darkTint.style.cssText = "display: none;";
-//     document.querySelector("body").style.overflow = "scroll";
+//     document.querySelector("body").style.overflow = "auto";
 // }

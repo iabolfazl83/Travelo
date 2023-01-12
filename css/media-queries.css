@@ -1,6 +1,3 @@
-/*X-Small devices (portrait phones, less than 576px)*/
-/*No media query for `xs` since this is the default in Bootstrap*/
-/*Small devices (landscape phones, 325px and down)*/
 @media (max-width: 325px) {
     .header-btn-container {
         justify-content: center;
