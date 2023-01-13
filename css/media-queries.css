@@ -1,624 +1,136 @@
-@media (max-width: 325px) {
-    .header-btn-container {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .input {
-        width: 80%;
-    }
-
-    article img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .search-form input::placeholder {
-        font-size: 2.9vw !important;
-        padding: 5px !important;
-    }
-
-    .search-form button {
-        font-size: 2.5vw;
-        padding: 2.5vw 3.8vw;
-    }
-
-    .image-info {
-        top: 85%;
-    }
-
-    .image-info p {
-        font-size: 2.5vw;
-    }
-
-    .image-info a {
-        font-size: 1.4vw;
-    }
-
-    .newsletter-form input {
-        width: 80%;
-    }
-
-    .newsletter-form input:focus {
-        width: 100%;
-    }
-
-    .newsletter button a {
-        font-size: 3.5vw;
-    }
-
-}
-
-/*Small devices (landscape phones, 325px and up)*/
-@media (min-width: 325px) {
-    .drop-down-menu li {
-        font-size: 1.11em;
-    }
-
-    .header-btn-container {
-        justify-content: center;
-        align-items: center;
-    }
-
-    input {
-        border-radius: 5px;
-    }
-
-    .search-bar h3 {
-        font-size: 2.8vw;
-    }
-
-    .search-form input {
-        padding: 1.8vw 2vw !important;
-        font-size: 1.5vw !important;
-        width: 150% !important;
-    }
-
-    .search-form input::placeholder {
-        font-size: 1.3vw !important;
-    }
-
-    .search-form button {
-        font-size: 1.8vw;
-        padding: 1.4vw 3.4vw;
-    }
-
-    .popular-destinations h3 {
-        font-size: 5vw;
-    }
-
-    .popular-destinations p {
-        font-size: 2.5vw;
-    }
-
-    .image-info {
-        top: 85%;
-    }
-
-    .image-info p {
-        font-size: 2.3vw;
-    }
-
-    .image-info a {
-        font-size: 1.2vw;
-    }
-
-    .newsletter-header p {
-        font-size: 2.5vw;
-    }
-
-    .newsletter-form input {
-        width: 100%;
-    }
-
-    .newsletter-form input:focus {
-        width: 130%;
-    }
-
-    .newsletter-form button {
-        font-size: 3vw !important;
-        padding: 2vw 4vw;
-    }
-
-}
-
-/*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    header {
-        justify-content: space-between;
-        padding: 25px 75px;
+    .top-logo {
+        width: 100% !important;
     }
 
-    .header-search-bar-btn-container button {
-        padding: 22px 15px;
-    }
+    .search-btn {
+        margin: 16px 30px 0 200px;
 
-    .search-section {
-        padding: 2.5vw;
-    }
-
-    .search-bar h3 {
-        font-size: 2.9vw;
-    }
-
-    .search-form button {
-        font-size: 1.8vw;
-        padding: 1.2vw 3.4vw;
-    }
-
-    .search-form input {
-        padding: 1.8vw 2vw !important;
-        font-size: 1.5vw !important;
-        width: 150% !important;
-    }
-
-    .search-form input::placeholder {
-        font-size: 1.3vw !important;
-    }
-
-    article img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .popular-destinations h3 {
-        font-size: 4vw;
-    }
-
-    .popular-destinations p {
-        font-size: 1.5vw;
-    }
-
-
-    .intro-btn button {
-        padding: 2vw 3vw;
-        font-size: 2.5vw;
     }
 
     .intro-header h3 {
-        font-size: 8vw;
+        font-size: 80px;
     }
 
     .intro-information p {
-        font-size: 2.5vw;
-    }
-
-    .image-info {
-        top: 80% !important;
-    }
-
-    .image-info p {
-        font-size: 2.3vw;
-    }
-
-    .image-info a {
-        font-size: 1.2vw;
-    }
-
-    .newsletter-header h4 {
-        font-size: 3.5vw;
-    }
-
-    .newsletter-header p {
-        font-size: 2vw;
-    }
-
-    .newsletter-form input {
-        width: 130%;
-    }
-
-    .newsletter-form input:focus {
-        width: 150%;
-    }
-
-    .newsletter-form button {
-        padding: 1vw 2vw;
-    }
-
-    .newsletter-form button a {
-        font-size: 2.5vw;
-    }
-
-    .newsletter-form input::placeholder {
-        font-size: 2vw;
-    }
-
-    footer {
-        padding: 8vw;
-    }
-
-    .footer-destinations li {
-        line-height: .8;
-    }
-
-    .left-side ul li, .right-side ul li a {
-        font-size: 3vw !important;
-    }
-
-    .right-side h3 {
-        font-size: 5vw !important;
-    }
-
-}
-
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    nav {
-        display: block;
-    }
-
-    li {
-        font-size: 1.05em;
-        margin-right: 25px;
+        font-size: 21px;
     }
 
     .intro-btn button {
-        font-size: 2vw;
-        padding: 2vw 3vw;
-    }
-
-    .drop-down-menu {
-        display: none;
-    }
-
-    .drop-down-menu-btn {
-        display: none;
-    }
-
-    .search-btn button {
-        font-size: 2vw;
-    }
-
-    .intro-header h3 {
-        font-size: 7vw;
-    }
-
-    .search-section {
-        padding: 3vw;
-    }
-
-    .search-form button {
-        font-size: 1.8vw;
-        padding: 1.2vw 3.4vw;
+        font-size: 16px;
+        padding: 13px;
     }
 
     .search-bar h3 {
-        font-size: 2.8vw;
-    }
-
-    .search-form input {
-        padding: 1.8vw 2vw !important;
-        font-size: 1.5vw !important;
-        width: 150% !important;
-    }
-
-    .search-form input::placeholder {
-        font-size: 1.3vw !important;
-    }
-
-    .popular-destinations h3 {
-        font-size: 3.8vw;
-    }
-
-    .popular-destinations p {
-        padding: 0 20px;
-        font-size: 1.4vw;
-    }
-
-    .image-info p {
-        font-size: 2.3vw;
-    }
-
-    .image-info a {
-        font-size: 1.2vw;
-    }
-
-    .newsletter-header h4 {
-        font-size: 3vw;
-        padding: 0 !important;
-    }
-
-    .newsletter-header p {
-        font-size: 1.5vw;
-    }
-
-    .newsletter-form input {
-        width: 170% !important;
-    }
-
-    .newsletter-form input:focus {
-        width: 190% !important;
-    }
-
-    .newsletter-form button {
-        padding: 0 2vw 1vw 2vw;
-    }
-
-    .newsletter-form button a {
-        font-size: 1.8vw;
-    }
-
-    footer {
-        flex-direction: row;
-        padding: 7vw;
-    }
-
-    .footer-destinations li {
-        width: 45% !important;
-        line-height: 0;
-    }
-
-    .left-side ul li, .right-side ul li a {
-        font-size: 2vw !important;
-    }
-
-    .right-side h3 {
-        font-size: 3vw !important;
-    }
-
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-    .drop-down-menu {
-        display: none;
-    }
-
-    .search-btn i {
-        font-size: 1.4em;
-    }
-
-    nav {
-        display: block;
-    }
-
-    li {
-        margin-right: 35px;
-        font-size: 1.3em;
-    }
-
-    .intro-btn button {
-        padding: 1.5vw;
-        font-size: 1.5em;
-    }
-
-    .search-bar {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
+        font-size: 37px;
     }
 
     .search-form {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: calc(200% / 1.6);
+        width: 100%;
     }
 
-    .search-bar input {
-        padding: 1vw 2.2vw !important;
-        font-size: 1.2vw !important;
+    .city-search-input {
+        padding: 9px 15px;
+        border-radius: 5px;
+        font-size: 18px;
+        width: 77%;
     }
 
-    .search-bar input::placeholder {
-        font-size: 1vw !important;
+    .search-form button {
+        font-size: 17px;
+        padding: 12px 30px;
+        font-weight: 700;
     }
 
-    .search-bar h3 {
-        font-size: 1.7vw;
-        white-space: nowrap;
+    .popular-destinations h3 {
+        font-size: 40px;
     }
 
-    .header-search-bar input {
-        margin: 0 10px 0 25px;
+    .popular-destinations p {
+        font-size: 18px;
+    }
+
+    .image-info p {
+        font-size: 26px;
+    }
+
+    .image-info a {
+        font-size: 13px;
+    }
+
+    .newsletter {
+        min-height: 231px;
+    }
+
+    .newsletter-container {
+        padding: 15px;
+    }
+
+    .newsletter-header h4 {
+        font-size: 36px;
+        margin: 20px 0 20px 0;
+    }
+
+    .newsletter-header p {
+        font-size: 17px;
+        margin: 0 0 25px 0;
+    }
+
+    .newsletter-form input {
+        width: 120%;
+        font-size: 15px;
+        margin: 0 0 20px 0;
         padding: 10px;
     }
 
-    .header-search-bar-btn-container button {
-        padding: 22px 17px;
-        margin: 0 0 0 10px;
-    }
-
-    .search-section {
-        padding: 2vw;
-    }
-
-    .search-form input {
-        border-radius: 5px;
-    }
-
-    .search-form button {
-        padding: .9vw 1.5vw;
-        margin: 0;
-        font-size: 1.5vw;
-    }
-
-    ::placeholder {
-        font-size: 1.3vw;
-    }
-
-    .popular-destinations p {
-        font-size: 1.5vw;
-    }
-
-    .popular-destinations h3 {
-        font-size: 4vw;
-        margin: 4vw auto 2vw auto;
-    }
-
-    .image-info p {
-        font-size: 2vw;
-    }
-
-    .image-info a {
-        font-size: 1vw;
-    }
-
-    .newsletter h4 {
-        font-size: 3.5vw;
-    }
-
-    .newsletter p {
-        font-size: 1.8vw;
-    }
-
-    .newsletter-container {
-        flex-direction: row;
-        width: 100%;
-    }
-
-    .newsletter-header {
-        width: calc(100% / 3);
-    }
-
-    .newsletter-header h4 {
-        font-size: 2vw;
-        margin-top: 0;
-    }
-
-    .newsletter-header p {
-        font-size: 1.3vw;
-    }
-
-    .newsletter-form {
-        width: calc(200% / 3);
-    }
-
-    .newsletter-form input {
-        width: calc(200% / 4) !important;
-        margin: 50px auto 20px auto !important;
-        transition: all 0.4s;
-        font-size: 1.4vw;
-    }
-
-    .newsletter-form input::placeholder {
-        color: #ccc;
-    }
-
-    .newsletter-form input:focus {
-        width: calc(200% / 3.5) !important;
-    }
-
-    .newsletter-form input::placeholder {
-        font-size: 1.3vw !important;
-    }
-
     .newsletter-form button {
-        padding: 0 1.8vw 1vw 1.8vw;
+        padding: 10px 17px;
+        font-size: 17px;
     }
 
-    .newsletter-form button a {
-        font-size: 1.5vw;
+    .video-header h3 {
+        font-size: 70px;
+    }
+
+    .video-control {
+        width: 70px;
+        height: 70px;
+    }
+
+    .video-control a {
+        font-size: 22px;
     }
 
     footer {
-        padding: 4vw 4vw 0 4vw;
+        flex-direction: row;
     }
 
-    .left-side ul li, .right-side ul li a {
-        font-size: 1.5vw !important;
-        line-height: 0 !important;
-        margin: 0 !important;
+    .footer-address li {
+        font-size: 15px;
+    }
+
+    .footer-destinations li a {
+        font-size: 14px;
     }
 
     .right-side h3 {
-        font-size: 2vw !important;
+        font-size: 23px;
     }
 
 }
 
-/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
 @media (min-width: 1200px) {
-    .intro-information {
-        font-size: 2.5vw;
-    }
 
-    .search-section {
-        flex-direction: row;
-    }
-
-    .search-form {
-        flex-direction: row;
-    }
-
-    .popular-destinations p {
-        font-size: 1.2vw;
-    }
-
-    .popular-destinations h3 {
-        font-size: 3.6vw;
-        margin: 4vw auto 2vw auto;
-    }
-
-    .popular-destinations p {
-        font-size: 1.2vw;
-    }
-
-    .image-info p {
-        font-size: 2vw;
-    }
-
-    .image-info a {
-        font-size: 1vw;
-    }
-
-    .newsletter-container {
-        padding: 3.5vw 0;
-    }
-
-    .newsletter-header h4 {
-        font-size: 2vw;
-        margin-top: 2vw;
-    }
-
-    .newsletter-header p {
-        font-size: 1.2vw;
-        padding: 0 1.6vw;
-    }
-
-    .newsletter-form {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-right: 20px;
-    }
-
-    .newsletter-form input {
-        font-size: 1.5vw;
-        margin: auto 1vw auto 7vw !important;
-        padding: 1vw !important;
-        transition: all 0.5s;
-    }
-
-    .newsletter-form button {
-        margin: 0 !important;
-        padding: 0 1.5vw .6vw 1.5vw !important;
-    }
-
-    .newsletter-form button a {
-        font-size: 1.5vw !important;
-    }
-
-    .newsletter-form button a:hover {
-        color: #ffffff;
-    }
 }
 
-/*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-    li a {
-        font-size: 1.5em;
-    }
-
-    .image-info p {
-        font-size: 2vw;
-    }
-
-    .image-info a {
-        font-size: 1vw;
-    }
 
 }
-

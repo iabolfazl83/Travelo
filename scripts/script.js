@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
         autoplay: true,
         pagination: false,
         speed: 1000,
-
     });
     splide.mount();
 });

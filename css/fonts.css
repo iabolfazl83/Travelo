@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Nothing You Could Do";
+    src: url('./font/Nothing You Could Do/NothingYouCouldDo-Regular.ttf') format('truetype');
+    src: url('./font/Nothing You Could Do/nothingyoucoulddo-regular-webfont.woff') format('woff'),
+    url('./font/Nothing You Could Do/nothingyoucoulddo-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./font/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+}
